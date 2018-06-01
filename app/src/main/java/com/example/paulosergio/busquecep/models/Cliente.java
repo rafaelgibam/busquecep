@@ -68,7 +68,6 @@ public class Cliente {
                 "nome='" + nome + '\'' +
                 ", cep='" + cep + '\'' +
                 ", logradouro='" + logradouro + '\'' +
-                ", complemento='" + complemento + '\'' +
                 ", bairro='" + bairro + '\'' +
                 ", localidade='" + localidade + '\'' +
                 ", uf='" + uf + '\'' +

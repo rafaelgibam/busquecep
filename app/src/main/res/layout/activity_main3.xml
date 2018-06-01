@@ -68,26 +68,15 @@
         app:layout_constraintTop_toBottomOf="@+id/lb_cep" />
 
     <TextView
-        android:id="@+id/lb_complemento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
-        android:text="Complemento:"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lb_logradouro" />
-
-    <TextView
         android:id="@+id/lb_bairro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:text="Bairro:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lb_complemento" />
+        app:layout_constraintTop_toBottomOf="@+id/lb_logradouro" />
 
     <TextView
         android:id="@+id/lb_localidade"
@@ -142,21 +131,11 @@
         android:layout_height="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lb_logradouro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lb_logradouro" />
-
-    <TextView
-        android:id="@+id/tv_complemento"
-        android:layout_width="258dp"
-        android:layout_height="20dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/lb_complemento"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/lb_complemento" />
 
     <TextView
         android:id="@+id/tv_bairro"
@@ -164,6 +143,7 @@
         android:layout_height="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lb_bairro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -175,6 +155,7 @@
         android:layout_height="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lb_localidade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -187,6 +168,7 @@
         android:layout_height="20sp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:textSize="18sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lb_uf"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

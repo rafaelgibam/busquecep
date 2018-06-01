@@ -25,7 +25,6 @@ public class Main3Activity extends AppCompatActivity {
     private TextView tvnome;
     private TextView tvcep;
     private TextView tvlogradouro;
-    private TextView tvcomplemento;
     private TextView tvbairro;
     private TextView tvlocalidade;
     private TextView tvuf;
@@ -41,7 +40,6 @@ public class Main3Activity extends AppCompatActivity {
         tvcep = findViewById(R.id.tv_cep);
         tvnome = findViewById(R.id.tv_nome);
         tvlogradouro = findViewById(R.id.tv_logradouro);
-        tvcomplemento = findViewById(R.id.tv_complemento);
         tvbairro = findViewById(R.id.tv_bairro);
         tvlocalidade = findViewById(R.id.tv_localidade);
         tvuf = findViewById(R.id.tv_uf);
